@@ -1,19 +1,19 @@
-# Photographer Portfolio 📸✨
+# Bena Studios | Nairobi, Kenya 📸✨
 
-Welcome to the `Photographer Portfolio` – a stunning and professional showcase of photography `skills` and `artistry`! 🌟 Whether you're a photography enthusiast or a professional seeking inspiration, this portfolio is designed to captivate and engage.
+Welcome to `Bena Studios` — Capturing Kenya, One Frame at a Time. Based in Nairobi CBD, we provide photography services across East Africa including editorial, event, commercial and portrait work.
 
 <br/>
 
 <h1 align="center">
 
-<a href="https://photographerportfoliowithprakhar.netlify.app"><strong> ➥🎨Experience the Art</strong></a>
+<a href="https://benastudios.co.ke"><strong> ➥🎨Experience the Art</strong></a>
 
 </h1>
 <br/>
 
 # Screenshots 📸.𖥔 ˖
 
-![Photographer Portfolio Gif](https://github.com/user-attachments/assets/13e86493-beeb-4d4b-a32e-908a367c04ad)
+![Bena Studios Gif](https://github.com/user-attachments/assets/13e86493-beeb-4d4b-a32e-908a367c04ad)
 
 
 <br/>
@@ -38,9 +38,9 @@ Welcome to the `Photographer Portfolio` – a stunning and professional showcase
 
 <br/>
 
-## 🚀 Clone and Run the Photographer Portfolio Locally
+## 🚀 Clone and Run Bena Studios Locally
 
-Follow these steps to clone and run the **Photographer Portfolio** on your local machine:
+Follow these steps to clone and run **Bena Studios** on your local machine:
 
 
 ### 🛠️ Steps to Clone and Run Locally
@@ -52,13 +52,13 @@ Follow these steps to clone and run the **Photographer Portfolio** on your local
      Open **Git Bash** and run:
 
      ```bash
-     git clone https://github.com/Prakhar-002/Photographer-Portfolio.git
+     git clone https://github.com/benastudios/Photographer-Portfolio.git
      ```
 
    - `For Linux and macOS 🌿`  
      Open your terminal and run:
      ```bash
-     sudo git clone https://github.com/Prakhar-002/Photographer-Portfolio.git
+     git clone https://github.com/benastudios/Photographer-Portfolio.git
      ```
 
 2. **Navigate to the Project Folder**  
@@ -69,9 +69,9 @@ Follow these steps to clone and run the **Photographer Portfolio** on your local
 
 <br/>
 
-## About Me 🚀
+## About Bena Studios
 
-Meet `Prakhar Katiyar` 🙋🏻‍♂️ , An avid learner with a passion for mastering the `MERN (MongoDB, Express.js, React.js, Node.js)` stack 🎯 and diving deep into `Data Structures and Algorithms (DSA)` 🧑🏻‍💻
+Bena Studios is a Nairobi-based photography studio specialising in editorial, event and commercial photography. Contact us at hello@benastudios.co.ke or +254 700 000 000.
 
 <br/>
 

@@ -5,12 +5,21 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- Primary Meta Tag -->
-      <title>Richard Ryan</title>
-      <meta name="title" content="Richard Ryan">
-      <meta name="description" content="This is a photographer portfolio html template, made by Prakhar Katiyar.">
+      <title>Bena Studios — Nairobi Photography</title>
+      <meta name="title" content="Bena Studios">
+      <meta name="description" content="Bena Studios — Capturing Kenya, One Frame at a Time. Available across East Africa.">
 
-      <!-- Fevicon -->
-      <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+      <!-- Favicon -->
+      <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+      <link rel="shortcut icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+      <!-- SEO Meta -->
+      <meta name="description" content="Bena Studios — Nairobi's premier photography studio. Weddings, wildlife, corporate events, and fashion photography across Kenya and East Africa.">
+      <meta name="keywords" content="Nairobi photographer, Kenya wedding photography, Bena Studios, safari photography, corporate events Nairobi, Maasai Mara wildlife photography">
+
+      <!-- Open Graph -->
+      <meta property="og:title" content="Bena Studios — Nairobi Photography">
+      <meta property="og:description" content="Capturing Kenya, One Frame at a Time.">
 
       <!-- Custom css link-->
       <link rel="stylesheet" href="./assets/css/style.css">
@@ -41,9 +50,7 @@
       <header class="header" data-header>
             <div class="container">
 
-                  <a href="#" class="logo">
-                        <img src="./assets/images/logo.svg" width="40" height="40" alt="Richard home">
-                  </a>
+                  <a href="#home" class="logo logo-wordmark">Bena Studios</a>
 
                   <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
                         <img src="./assets/images/menu.svg" height="17" width="17" alt="menu icon">
@@ -52,9 +59,7 @@
                   <nav class="navbar" data-navbar>
 
                         <div class="navbar-top">
-                              <a href="#" class="logo">
-                                    <img src="./assets/images/nav-logo.svg" class="img" width="140" height="40" alt="Richard home">
-                              </a>
+                              <a href="#home" class="logo logo-wordmark">Bena Studios</a>
 
                               <button class="nav-close-btn" aria-label="close menu" data-nav-toggler> 
                                     <span class="span one"></span>
@@ -96,15 +101,19 @@
                               <span class="span">Login</span>
                         </button>
 
-                        <p class="navbar-title">My Address</p>
+                        <p class="navbar-title">Location</p>
 
                         <address class="navbar-text">
-                              3287 Indiana Avenue, Waialua, Hawaii
+                              Nairobi CBD, Kenya
                         </address>
 
                         <p class="navbar-text">
+                              Coverage: Available across East Africa
+                        </p>
+
+                        <p class="navbar-text">
                               Urgent issue? call us at
-                              <a href="tel:7355580061" class="contact-link">73-555-80061</a>
+                              <a href="tel:+254700000000" class="contact-link">+254 700 000 000</a>
                         </p>
 
                   </nav>
@@ -119,25 +128,36 @@
 
                   <!-- HERO -->
                   <section class="section hero" id="home" aria-label="home">
-                        <div class="container">
+                        <figure class="hero-carousel" aria-label="Featured hero carousel">
+                              <img src="./assets/images/hero-kenya-wedding.jpg" width="340" height="380" alt="Kenyan celebration scene" class="hero-carousel-image active" data-hero-slide loading="eager">
+                              <img src="./assets/images/hero-kenya-nairobi.jpg" width="340" height="380" alt="Nairobi skyline at dawn" class="hero-carousel-image" data-hero-slide loading="lazy">
+                              <img src="./assets/images/hero-kenya-portrait.jpg" width="340" height="380" alt="Kenyan cultural portrait" class="hero-carousel-image" data-hero-slide loading="lazy">
+                              <img src="./assets/images/hero-kenya-wildlife.jpg" width="340" height="380" alt="Lion in Maasai Mara" class="hero-carousel-image" data-hero-slide loading="lazy">
 
-                              <img src="./assets/images/hero-banner.png" width="322" height="322" alt="" class="hero-banner">
+                              <div class="hero-carousel-dots" aria-hidden="true">
+                                    <span class="hero-carousel-dot active" data-hero-dot></span>
+                                    <span class="hero-carousel-dot" data-hero-dot></span>
+                                    <span class="hero-carousel-dot" data-hero-dot></span>
+                                    <span class="hero-carousel-dot" data-hero-dot></span>
+                              </div>
+                        </figure>
+
+                        <div class="container">
 
                               <div class="hero-content">
 
-                                    <h1 class="h1 hero-title">Richard Ryan</h1>
+                                    <h1 class="h1 hero-title">Bena Studios</h1>
 
                                     <div class="wrapper h2">
-                                          <strong class="strong" data-letter-effect>Photographer</strong>
-                                          <strong class="strong" data-letter-effect>Shutterbug</strong>
-                                          <strong class="strong" data-letter-effect>Cameraman</strong>
-                                          <strong class="strong" data-letter-effect>Pacific Portraits</strong>
+                                          <strong class="strong" data-letter-effect>Wedding Stories</strong>
+                                          <strong class="strong" data-letter-effect>Corporate Events</strong>
+                                          <strong class="strong" data-letter-effect>Portrait Sessions</strong>
+                                          <strong class="strong" data-letter-effect>Wildlife Frames</strong>
                                     </div>
 
-                                    <p class="hero-text">15+ Years Of Experience</p>
+                                    <p class="hero-text">Capturing Kenya, One Frame at a Time</p>
 
                               </div>
-
                         </div>
 
                         <img src="./assets//images/hero-shape.svg" width="211" height="189" alt="" class="shape">
@@ -561,21 +581,19 @@
                               <div class="about-content">
 
                                     <h2 class="h2 section-title" data-reveal="right">
-                                          Hi. I’m <br>
-                                          Richard Ryan
+                                          Hi. We’re <br>
+                                                Bena Studios
                                     </h2>
 
                                     <div class="wrapper has-before" data-reveal="right">
 
                                           <p class="section-text">
-                                                A passionate
-                                                <em class="em">photographer</em>
-                                                who are working in this field for 
-                                                <em class="em">last 10 years.</em>
-                                                I’m ready to give you my best.
+                                                Bena Studios is a Nairobi-based
+                                                <em class="em">photography studio</em>
+                                                serving clients across East Africa. We specialise in editorial, event and commercial photography and are committed to delivering exceptional visual storytelling.
                                           </p>
 
-                                          <img src="./assets/images/signature.png" width="151" loading="lazy" height="92" alt="signature" class="img">
+                                          <img src="./assets/images/my_sign-removebg-preview.png" width="151" loading="lazy" height="92" alt="signature" class="img about-signature">
 
                                     </div>
 
@@ -584,10 +602,8 @@
                               <figure class="about-banner" data-reveal="left">
 
                                     <div class="img-holder has-before" style="--width: 512; --height: 684;">
-                                          <img src="./assets/images/about-banner.jpg" width="512" height="684" loading="lazy" alt="Riachard Ryan" class="img-cover">
+                                          <img src="./assets/images/about-banner.jpg" width="512" height="684" loading="lazy" alt="Bena Studios team" class="img-cover">
                                     </div>
-
-                                    <img src="./assets/images/about-shape-1.png" alt="" width="178" height="178" loading="lazy" class="shape shape-1">
 
                                     <img src="./assets/images/about-shape-2.svg" alt="" width="659" height="653" loading="lazy" class="shape shape-2">
 
@@ -615,7 +631,7 @@
                                                 <h3 class="h3 card-title">Wedding Photography</h3>
 
                                                 <p class="card-subtitle">
-                                                      Aut temporibus qui vero.
+                                                      Full-day storytelling with candid moments and cinematic couple portraits.
                                                 </p>
                                           </div>
 
@@ -636,13 +652,13 @@
                               <li class="data-reveal" data-reveal>
                                     <div class="service-card container">
 
-                                          <img src="./assets/images/service-2.jpg" alt="Event Organizer" width="340" height="380" loading="lazy" class="img">
+                                          <img src="./assets/images/service-2.jpg" alt="Event Coverage" width="340" height="380" loading="lazy" class="img">
 
                                           <div>
-                                                <h3 class="h3 card-title">Event Organizer</h3>
+                                                <h3 class="h3 card-title">Event Coverage</h3>
 
                                                 <p class="card-subtitle">
-                                                      Nobis, magni modi ipsa culpa.
+                                                      End-to-end event coverage for conferences, launches, and private celebrations.
                                                 </p>
                                           </div>
 
@@ -669,7 +685,7 @@
                                                 <h3 class="h3 card-title">Product Marketing</h3>
 
                                                 <p class="card-subtitle">
-                                                      Tenetur porro repellendus!
+                                                      Studio-quality product visuals tailored for campaigns, catalogs, and social media.
                                                 </p>
                                           </div>
 
@@ -696,7 +712,7 @@
                                                 <h3 class="h3 card-title">Videography</h3>
 
                                                 <p class="card-subtitle">
-                                                      Amet consectetur adipisicing elit
+                                                      Highlight films and short-form reels edited for web, social, and paid ads.
                                                 </p>
                                           </div>
 
@@ -866,24 +882,22 @@
                         <div class="footer-bottom">
                               <div class="container">
 
-                                    <a href="#" class="logo">
-                                          <img src="./assets/images/logo.svg" width="40" height="40" loading="lazy" alt="Richard home">
-                                    </a>
+                                    <a href="#home" class="logo logo-wordmark">Bena Studios</a>
 
-                                    <a href="https://github.com/Prakhar-002" target="_blank" class="copyright"><i class="fa-brands fa-github"></i> Prakhar-002</a>
+                                    <div class="copyright">© 2026 Bena Studios — Nairobi, Kenya</div>
 
                                     <ul class="social-list">
 
                                           <li>
-                                                <a href="https://www.linkedin.com/in/prakhar002/" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                                                <a href="https://instagram.com/benastudios.ke" target="_blank" class="social-link"><i class="fa-brands fa-instagram"></i></a>
                                           </li>
 
                                           <li>
-                                                <a href="https://leetcode.com/u/Prakhar-002/" target="_blank" class="social-link"><i class="fa-solid fa-splotch"></i></a>
+                                                <a href="https://facebook.com/benastudios.ke" target="_blank" class="social-link"><i class="fa-brands fa-facebook"></i></a>
                                           </li>
 
                                           <li>
-                                                <a href="mailto:prakhar.katiyar.002@gmail.com" target="_blank" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+                                                <a href="mailto:hello@benastudios.co.ke" target="_blank" class="social-link"><i class="fa-solid fa-envelope"></i></a>
                                           </li>
 
                                     </ul>
@@ -901,9 +915,6 @@
                   <!-- BACK TO TOP -->
                   <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
 
-
-                  <!-- CUSTOM CURSOR -->
-                  <div class="cursor" data-cursor></div>
 
             </article>
       </main>

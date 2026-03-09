@@ -64,12 +64,30 @@ window.addEventListener("scroll", activeElementOnScroll);
 */
 
 const letterBoxes = document.querySelectorAll("[data-letter-effect]");
+const heroSlides = document.querySelectorAll("[data-hero-slide]");
+const heroDots = document.querySelectorAll("[data-hero-dot]");
 
 let activeLetterBoxIndex = 0;
 let lastActiveLetterBoxIndex = 0;
 let totalLetterBoxDelay = 0;
 
+const setActiveHeroSlide = function (index) {
+      if (!heroSlides.length) return;
+
+      const activeSlideIndex = index % heroSlides.length;
+
+      for (let i = 0; i < heroSlides.length; i++) {
+            const isActive = i === activeSlideIndex;
+            heroSlides[i].classList.toggle("active", isActive);
+
+            if (heroDots[i]) {
+                  heroDots[i].classList.toggle("active", isActive);
+            }
+      }
+}
+
 const setLetterEffect = function () {
+      setActiveHeroSlide(activeLetterBoxIndex);
 
       // loop through all letter boxes
       for (let i = 0; i < letterBoxes.length; i++) {
@@ -110,7 +128,7 @@ const setLetterEffect = function () {
                   letterBoxes[i].appendChild(span);
 
                   // skip letterAnimationDelay when loop is in the last index
-                  if (j >= letterAnimationDelay.length - 1) {
+                  if (j >= letters.length - 1) {
                         break;
                   } 
 
@@ -198,54 +216,6 @@ const scrollReveal = function () {
 window.addEventListener("scroll", scrollReveal);
 
 scrollReveal();
-
-
-
-/*
-! CUSTOM CURSER
-*/
-
-const cursor = document.querySelector("[data-cursor]");
-const anchorElements = document.querySelectorAll("a");
-const buttons = document.querySelectorAll("button");
-
-// change cursorElements position based on cursor move
-document.body.addEventListener("mousemove", function(events) {
-
-      setTimeout(function() {
-            cursor.style.top = `${events.clientY}px`;
-            cursor.style.left = `${events.clientX}px`;
-      }, 100);
-
-});
-
-// add cursor hovered class
-const hoverActive = function () {
-      cursor.classList.add("hovered");
-}
-
-
-// remove cursor hovered class
-const hoverInactive = function () {
-      cursor.classList.remove("hovered");
-}
-
-// add hover effect on curser, when hover on any button or hyperLine
-
-addEventOnElements(anchorElements, "mouseover", hoverActive)
-addEventOnElements(anchorElements, "mouseout", hoverInactive)
-addEventOnElements(buttons, "mouseover", hoverActive)
-addEventOnElements(buttons, "mouseout", hoverInactive)
-
-// add disabled class on cursorElement, when mouse out of the body
-document.body.addEventListener("mouseout", function() {
-      cursor.classList.add("disabled");
-});
-
-// remove disabled class in cursorElement, when mouse in the body
-document.body.addEventListener("mouseover", function() {
-      cursor.classList.remove("disabled");
-});
 
 
 
