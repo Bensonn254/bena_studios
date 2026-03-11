@@ -157,6 +157,7 @@ const setLetterEffect = function () {
             // update activeLetterBoxIndex boxed on total letter boxes
             activeLetterBoxIndex >= letterBoxes.length - 1 ? activeLetterBoxIndex = 0 : activeLetterBoxIndex++;
 
+            setActiveHeroSlide(activeLetterBoxIndex);
             setLetterEffect();
 
       }, (totalLetterBoxDelay * 1000) + 3000);
